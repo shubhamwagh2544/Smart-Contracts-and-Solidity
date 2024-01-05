@@ -32,7 +32,7 @@ contract SimpleStorage {
     }
 
     //setter
-    function set(uint _number) public {
+    function set(uint _number) public virtual {
         number = _number;
     } 
 
