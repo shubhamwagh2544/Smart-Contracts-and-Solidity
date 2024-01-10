@@ -21,6 +21,13 @@ contract SimpleStorage {
     //mapping
     mapping(string => uint256) public nameToNumberMapping;
 
+    //visibility
+    //private is only accessible within the contract
+    //internal is only accessible within the contract and contracts that inherit from it
+    //public is accessible anywhere
+    //external is only accessible outside the contract
+    //internal is the default visibility
+
     //constructor
     constructor() {
         isTrue = true;
